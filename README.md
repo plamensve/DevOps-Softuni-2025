@@ -4,8 +4,6 @@
 
 
 # Lecture 4 - Exercise 1 & 2
-----------------------------
-
 ## The "Towns" Project
 
 ### Roles
