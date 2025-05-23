@@ -2,6 +2,9 @@
 
 **Training repository – DevOps SoftUni 2025**
 
+
+#Lecture 4 - Exercise 1 & 2
+
 ## The "Towns" Project
 
 ### Roles
@@ -24,4 +27,4 @@
 
 - **Galin** – *Verifier's Functionality* 
 
-
+---------------------------------------------------------------------------------
