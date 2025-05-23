@@ -13,7 +13,7 @@
 - **Georgi Nikov** – *Styler*
 
 
-## Hotel Reservation Project
+## "Hotel Reservation" Project
 
 ### Roles 
 
