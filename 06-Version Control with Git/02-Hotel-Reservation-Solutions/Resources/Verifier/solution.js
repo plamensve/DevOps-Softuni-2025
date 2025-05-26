@@ -22,6 +22,11 @@ function showThanksPage(e) {
     changeContent('thank-you-content');
 }
 
-function verifyContent(e){
-
+function verifyContent(){
+    guestNameEl.value = 'Name: ' + reservation.name.value;
+    guestPhoneEl.value = 'Phone: ' + reservation.phone.value;
+    guestEmailEl.value = 'Email: ' + reservation.email.value;
+    guestRoomTypeEl.value = 'Room Type: ' + reservation.roomType.value;
+    guestDataInEl = 'Date-in: ' + reservation.startDate.value;
+    guestDataOutEl = 'Date-out: ' + reservation.endDate.value;
 }
