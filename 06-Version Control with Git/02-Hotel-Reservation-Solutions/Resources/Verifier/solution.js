@@ -5,8 +5,6 @@ let guestRoomTypeEl = document.getElementById("guest-room-type");
 let guestDataInEl = document.getElementById("guest-data-in");
 let guestDataOutEl = document.getElementById("guest-data-out");
 
-changeContent('confirm-reservation-content');
-
 document.querySelector('#confirm-back-btn').addEventListener('click', (e) => getBackToPersonalData(e));
 
 function getBackToPersonalData(e) {
