@@ -1,3 +1,12 @@
+let guestNameEl = document.getElementById("guest-name");
+let guestPhoneEl = document.getElementById("guest-phone");
+let guestEmailEl = document.getElementById("guest-email");
+let guestRoomTypeEl = document.getElementById("guest-room-type");
+let guestDataInEl = document.getElementById("guest-data-in");
+let guestDataOutEl = document.getElementById("guest-data-out");
+
+changeContent('confirm-reservation-content');
+
 document.querySelector('#confirm-back-btn').addEventListener('click', (e) => getBackToPersonalData(e));
 
 function getBackToPersonalData(e) {
@@ -11,4 +20,8 @@ document.querySelector('#confirm-reservation').addEventListener('click', (e) => 
 function showThanksPage(e) {
     e.preventDefault();
     changeContent('thank-you-content');
+}
+
+function verifyContent(e){
+
 }
