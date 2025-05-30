@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Books.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Books.Api.Controllers.BookController.GetAllBooks">
+            <summary>
+            Gets a list with all books.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                GET /api/book
+                {
+                
+                }
+            </remarks>
+            <response code="200">Returns "OK" with a list of all books</response>
+        </member>
+        <member name="M:Books.Api.Controllers.BookController.GetBook(System.Int32)">
+            <summary>
+            Gets a book by id.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                GET /api/book/{id}
+                {
+                
+                }
+            </remarks>
+            <response code="200">Returns "OK" with the book</response>
+            <response code="404">Returns "Not Found" when a book with the given id doesn't exist</response>
+        </member>
+        <member name="M:Books.Api.Controllers.BookController.AddBook(Books.Infrastructure.Models.Book)">
+            <summary>
+            Creates a new book and adds it to the db.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST /api/book
+                {
+                    "title": "Title",
+                    "author": "Author"
+                }
+            </remarks>
+            <response code="201">Returns "Created" with the created book</response>
+        </member>
+        <member name="M:Books.Api.Controllers.BookController.EditBook(System.Int32,Books.Infrastructure.Models.Book)">
+            <summary>
+            Edits a book.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                PUT /api/book/{id}
+                {
+                    "title": "Title",
+                    "author": "Author"
+                }
+            </remarks>
+            <response code="200">Returns "Ok"</response>
+            <response code="400">Returns "Bad Request" when a book when an invalid request is sent</response>
+            <response code="404">Returns "Not Found" when a book with the given id doesn't exist</response>
+        </member>
+        <member name="M:Books.Api.Controllers.BookController.EditBookPartially(System.Int32,Books.Infrastructure.Models.Book)">
+            <summary>
+            Edits a book partially.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                PATCH /api/book/{id}
+                {
+                    "title": "Title",
+                }
+            </remarks>
+            <response code="200">Returns "Ok"</response>
+            <response code="404">Returns "Not Found" when a book with the given id doesn't exist</response>
+        </member>
+        <member name="M:Books.Api.Controllers.BookController.DeleteBook(System.Int32)">
+            <summary>
+            Deletes a book.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                DELETE /api/book/{id}
+                {
+                
+                }
+            </remarks>
+            <response code="200">Returns "Ok"</response>
+            <response code="404">Returns "Not Found" when a book with the given id doesn't exist</response>
+        </member>
+    </members>
+</doc>

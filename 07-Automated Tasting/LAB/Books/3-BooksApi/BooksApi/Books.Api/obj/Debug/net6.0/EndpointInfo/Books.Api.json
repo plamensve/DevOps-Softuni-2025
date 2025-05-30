@@ -1,0 +1,295 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Books.API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/book": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "summary": "Gets a list with all books.",
+        "description": "Sample request:\r\n\r\n    GET /api/book\r\n    {\r\n    \r\n    }",
+        "responses": {
+          "200": {
+            "description": "Returns \"OK\" with a list of all books",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Book"
+                    }
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Book"
+                    }
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Book"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Book"
+        ],
+        "summary": "Creates a new book and adds it to the db.",
+        "description": "Sample request:\r\n\r\n    POST /api/book\r\n    {\r\n        \"title\": \"Title\",\r\n        \"author\": \"Author\"\r\n    }",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "201": {
+            "description": "Returns \"Created\" with the created book"
+          }
+        }
+      }
+    },
+    "/api/book/{id}": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "summary": "Gets a book by id.",
+        "description": "Sample request:\r\n\r\n    GET /api/book/{id}\r\n    {\r\n    \r\n    }",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns \"OK\" with the book",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Book"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Book"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Book"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Returns \"Not Found\" when a book with the given id doesn't exist"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Book"
+        ],
+        "summary": "Edits a book.",
+        "description": "Sample request:\r\n\r\n    PUT /api/book/{id}\r\n    {\r\n        \"title\": \"Title\",\r\n        \"author\": \"Author\"\r\n    }",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Returns \"Ok\""
+          },
+          "400": {
+            "description": "Returns \"Bad Request\" when a book when an invalid request is sent"
+          },
+          "404": {
+            "description": "Returns \"Not Found\" when a book with the given id doesn't exist"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Book"
+        ],
+        "summary": "Edits a book partially.",
+        "description": "Sample request:\r\n\r\n    PATCH /api/book/{id}\r\n    {\r\n        \"title\": \"Title\",\r\n    }",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Book"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Returns \"Ok\""
+          },
+          "404": {
+            "description": "Returns \"Not Found\" when a book with the given id doesn't exist"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Book"
+        ],
+        "summary": "Deletes a book.",
+        "description": "Sample request:\r\n\r\n    DELETE /api/book/{id}\r\n    {\r\n    \r\n    }",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns \"Ok\"",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Book"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Book"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Book"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Returns \"Not Found\" when a book with the given id doesn't exist"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Book": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "author": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

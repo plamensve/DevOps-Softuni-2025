@@ -1,0 +1,15 @@
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\bin\Debug\net6.0\Books.Core.deps.json
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\bin\Debug\net6.0\Books.Core.dll
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\bin\Debug\net6.0\Books.Core.pdb
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\bin\Debug\net6.0\Books.Infrastructure.dll
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\bin\Debug\net6.0\Books.Infrastructure.pdb
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\Books.Core.csproj.AssemblyReference.cache
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\Books.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\Books.Core.AssemblyInfoInputs.cache
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\Books.Core.AssemblyInfo.cs
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\Books.Core.csproj.CoreCompileInputs.cache
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\Books.Core.csproj.Up2Date
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\Books.Core.dll
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\refint\Books.Core.dll
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\Books.Core.pdb
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Core\obj\Debug\net6.0\ref\Books.Core.dll

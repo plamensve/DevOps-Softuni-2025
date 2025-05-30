@@ -1,0 +1,14 @@
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\bin\Debug\net6.0\Books.Infrastructure.deps.json
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\bin\Debug\net6.0\Books.Infrastructure.runtimeconfig.json
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\bin\Debug\net6.0\Books.Infrastructure.dll
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\bin\Debug\net6.0\Books.Infrastructure.pdb
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\Books.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\Books.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\Books.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\Books.Infrastructure.AssemblyInfo.cs
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\Books.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\Books.Infrastructure.dll
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\refint\Books.Infrastructure.dll
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\Books.Infrastructure.pdb
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\Books.Infrastructure.genruntimeconfig.cache
+C:\Users\sveto\OneDrive\Desktop\Books\3-BooksApi\BooksApi\Books.Infrastructure\obj\Debug\net6.0\ref\Books.Infrastructure.dll
